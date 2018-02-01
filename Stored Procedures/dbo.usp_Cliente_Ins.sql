@@ -2,7 +2,8 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
- CREATE PROCEDURE [dbo].[usp_Cliente_Ins]
+CREATE PROCEDURE [dbo].[usp_Cliente_Ins]
+	@int_IdEmpresa INT
 AS
 BEGIN
 	INSERT INTO dbo.Cliente
